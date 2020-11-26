@@ -10,15 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week13Event/EventDefault.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/EventFlow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/EventObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/EventObjProperty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/EventUseHtmltag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/EventUseJS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="EventPractice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,8 +66,16 @@
       <option name="presentableId" value="Default" />
       <updated>1606348574261</updated>
       <workItem from="1606348575331" duration="903000" />
-      <workItem from="1606351189138" duration="3569000" />
+      <workItem from="1606351189138" duration="3764000" />
     </task>
+    <task id="LOCAL-00001" summary="EventPractice">
+      <created>1606358128075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606358128075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,11 +92,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="EventPractice" />
+    <option name="LAST_COMMIT_MESSAGE" value="EventPractice" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="221" y="89" key="SettingsEditor" timestamp="1606351345527">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606351345527" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606358172138">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606358172138" />
     <state x="558" y="248" width="657" height="404" key="svn.repositoryBrowser" timestamp="1606349921451">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

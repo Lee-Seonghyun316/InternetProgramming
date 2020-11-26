@@ -5,12 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] delete 1.js">
-      <change afterPath="$PROJECT_DIR$/Week13Event/MouseEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/onContextMenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/onLoadImage.html" afterDir="false" />
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] MouseEvent.html onContextMenu.html onLoadImage.html">
+      <change afterPath="$PROJECT_DIR$/Week13Event/Q1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13Event/Q2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13Event/media/spongebob.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13Event/1.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week13Event/media" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,6 +57,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week13Event/media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week13Event" />
     </key>
@@ -76,7 +79,7 @@
       <workItem from="1606351189138" duration="3879000" />
       <workItem from="1606358313928" duration="1216000" />
       <workItem from="1606361663101" duration="3222000" />
-      <workItem from="1606370891147" duration="405000" />
+      <workItem from="1606370891147" duration="5106000" />
     </task>
     <task id="LOCAL-00001" summary="EventPractice">
       <created>1606358128075</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606362590051</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[add] MouseEvent.html onContextMenu.html onLoadImage.html">
+      <created>1606371468818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606371468818</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +168,8 @@
     <MESSAGE value="[add] onClickCalculate.html" />
     <MESSAGE value="[add] nothing" />
     <MESSAGE value="[add] delete 1.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] delete 1.js" />
+    <MESSAGE value="[add] MouseEvent.html onContextMenu.html onLoadImage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] MouseEvent.html onContextMenu.html onLoadImage.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606371224794">
@@ -173,10 +184,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606351345527" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606362597746">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606371472009">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606362597746" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606371472009" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1606361318929" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606363192426">
       <screen x="0" y="0" width="1440" height="900" />

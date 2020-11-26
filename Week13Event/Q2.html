@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>> onmousemove</title>
+    <style>
+      /*div {
+        background: skyblue;
+        width: 250px;
+      }*/
+    </style>
+  </head>
+  <body onmouseover="where(event)">
+    <h3>이미지 커서 만들기</h3>
+    <hr />
+    마우스를 움직이면 이미지로 만든 커서가 마우스를 따라 다닙니다. <br /><br />
+    <div id="Character" style="position: absolute"></div>
+
+    <script>
+
+      var div = document.getElementById("Character");
+      function where(e) {
+        div.style.left = e.x+"px";
+        div.style.top = e.y+"px";
+        div.style.width ="30px";
+        div.style.height ="30px";
+        div.style.backgroundImage ="url('media/spongebob.png')"
+        div.style.visibility ="visible";
+        div.style.zIndex = "10000";//이것만 설정해도 커서위에 이미지가 나타나야 하는 거 아닌가..
+        div.style.backgroundSize = "cover";
+
+      }
+      document.body.style.cursor="none";
+    </script>
+  </body>
+</html>

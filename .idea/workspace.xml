@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="351395f1-b6f1-457a-abca-418c4b60d572" name="Default Changelist" comment="" />
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1jjQE5y82zxZOb7zcz9HMpA4vAH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1knuFkXs5SHt2J0zdxnnjvP42tP" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.18.4/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="351395f1-b6f1-457a-abca-418c4b60d572" name="Default Changelist" comment="" />
-      <created>1604314908177</created>
+      <changelist id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="" />
+      <created>1606348574261</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604314908177</updated>
-      <workItem from="1604314910053" duration="228000" />
-      <workItem from="1606350023845" duration="5000" />
-      <workItem from="1606350069282" duration="221000" />
+      <updated>1606348574261</updated>
+      <workItem from="1606348575331" duration="214000" />
     </task>
     <servers />
   </component>

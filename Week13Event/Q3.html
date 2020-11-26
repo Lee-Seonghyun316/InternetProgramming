@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 객체의 Target</title>
+</head>
+<body onload="init()">
+    <div>
+        <hr>
+        여름방학 때 하고 싶은 일들<br/><br/>
+        <ul>
+            <li>자전거로 대한민국 일주</li>
+            <li>책 100권 읽기</li>
+            <li>철인 3종 경기 준비</li>
+            <li>자바스크립트 정복</li>
+        </ul>
+    </div>
+<script>
+    var li;
+    function init() { // 문서가 완전히 로드되었을 때 호출
+        li = document.getElementsByTagName("li");
+        li.onmouseover = over; // over()를 onmouseover 리스너로 등록
+        li.onmouseout = out; // out()를 onmouseout 리스너로 등록
+    }
+    function over() {
+        li.style.fontSize=30px;
+    }
+    function out() {
+        li.style.fontSize="15px";
+    }
+
+</script>
+</body>
+</html>

@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="git error" />
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="git error erroer">
+      <change afterPath="$PROJECT_DIR$/Week13Event/onClickCalculate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +65,8 @@
       <updated>1606348574261</updated>
       <workItem from="1606348575331" duration="903000" />
       <workItem from="1606351189138" duration="3879000" />
-      <workItem from="1606358313928" duration="571000" />
+      <workItem from="1606358313928" duration="1216000" />
+      <workItem from="1606361663101" duration="130000" />
     </task>
     <task id="LOCAL-00001" summary="EventPractice">
       <created>1606358128075</created>
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606358333544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="git error erroer">
+      <created>1606358973888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606358973888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +107,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -111,21 +123,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EventPractice" />
     <MESSAGE value="git error" />
-    <option name="LAST_COMMIT_MESSAGE" value="git error" />
+    <MESSAGE value="git error erroer" />
+    <option name="LAST_COMMIT_MESSAGE" value="git error erroer" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="358" y="204" key="MultipleFileMergeDialog" timestamp="1606361304309">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="358" y="204" key="MultipleFileMergeDialog/0.23.1440.826@0.23.1440.826" timestamp="1606361304309" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1606351345527">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606351345527" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606358337922">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1606361318929">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606358981257" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1606361318929" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606359537235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606358337922" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606358886400">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1606358886400" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1606359537235" />
     <state x="444" y="346" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606358306627">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

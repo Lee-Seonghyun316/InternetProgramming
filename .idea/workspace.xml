@@ -5,9 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] Q3.html">
-      <change afterPath="$PROJECT_DIR$/Week14Event/newImage.js" afterDir="false" />
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] 14Week">
+      <change afterPath="$PROJECT_DIR$/Week14Event/setTImeOUt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week14Event/windowClose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week14Event/windowOpen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week14Event/newImage.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week14Event" />
       <recent name="$PROJECT_DIR$/Week13Event" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -82,7 +86,7 @@
       <workItem from="1606387983960" duration="259000" />
       <workItem from="1606402322345" duration="3588000" />
       <workItem from="1606523102080" duration="256000" />
-      <workItem from="1606805895713" duration="329000" />
+      <workItem from="1606805895713" duration="2021000" />
     </task>
     <task id="LOCAL-00001" summary="EventPractice">
       <created>1606358128075</created>
@@ -161,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606405747366</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[add] 14Week">
+      <created>1606844093460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606844093460</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +206,8 @@
     <MESSAGE value="[add] Q1 Q2" />
     <MESSAGE value="[add] nothing" />
     <MESSAGE value="[add] Q3.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] Q3.html" />
+    <MESSAGE value="[add] 14Week" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] 14Week" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606371224794">
@@ -210,10 +222,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606388238643" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606405752620">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606844101486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606405752620" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606844101486" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1606361318929" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606387994208">
       <screen x="0" y="0" width="1440" height="900" />

@@ -5,11 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] nothing">
-      <change afterPath="$PROJECT_DIR$/Week13Event/Q3(2).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13Event/Q3(3).html" afterDir="false" />
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] Q3.html">
+      <change afterPath="$PROJECT_DIR$/Week14Event/newImage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13Event/Q3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13Event/Q3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week13Event/media" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week14Event" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,11 +55,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week13Event/media" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week13Event" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week14Event" />
+      <recent name="$PROJECT_DIR$/Week13Event/media" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +80,9 @@
       <workItem from="1606361663101" duration="3222000" />
       <workItem from="1606370891147" duration="6306000" />
       <workItem from="1606387983960" duration="259000" />
-      <workItem from="1606402322345" duration="3194000" />
+      <workItem from="1606402322345" duration="3588000" />
+      <workItem from="1606523102080" duration="256000" />
+      <workItem from="1606805895713" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="EventPractice">
       <created>1606358128075</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606388018681</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[add] Q3.html">
+      <created>1606405747366</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606405747366</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +194,8 @@
     <MESSAGE value="[add] MouseEvent.html onContextMenu.html onLoadImage.html" />
     <MESSAGE value="[add] Q1 Q2" />
     <MESSAGE value="[add] nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] nothing" />
+    <MESSAGE value="[add] Q3.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] Q3.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606371224794">
@@ -201,10 +210,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606388238643" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606388023748">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606405752620">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606388023748" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606405752620" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1606361318929" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606387994208">
       <screen x="0" y="0" width="1440" height="900" />

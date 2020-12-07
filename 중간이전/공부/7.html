@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--
+    리스트모양 꾸미기
+    표 꾸미기
+    폼 꾸미기(라벨, input박스)
+    애니매이션
+    전환
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #list{
+            list-style-type: disc;
+            list-style-position: inside;
+            list-style-image: url("border.png");
+        }
+        /**/
+        #navlist1{
+            background-color: green;
+            color: whitesmoke;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;/*기본으로 padding이 설정되어 있음으로 0으로 바꾸기*/
+        }
+        #navlist1 li{
+            padding: 0px 10px;
+            display: inline-block;/*display기억하기*/
+           
+        }
+        #navlist1 li:hover{
+            color: violet;
+        }
+        #navlist1 a{
+            color: whitesmoke;
+            text-decoration: none;/*text-decorlation기억하기*/
+        }
+        #list1{
+            padding: 10px 10px 10px 50px;
+            background-color: goldenrod;
+            list-style-position: inside;
+            list-style-type: circle;
+            /*square, none, upper-roman, lower-algpa, deciaml*/
+        }
+        #list1 li{
+            margin-bottom: 10px;
+            background-color: greenyellow;
+        }
+        
+        #table1{
+            /*border:1px solid blue; border잊지 말기*/
+            border-collapse: collapse;/*bord-collapse:collapse하면 중복된 부분 빠짐*/
+        }
+        #table1 th,td{
+            border-bottom: 1px solid gray;/*,뺴먹지 말기*/
+            height: 20px;
+            width: 100px;
+            text-align: left;
+            padding: 5px 10px;
+        }
+        #table1 thead{
+            background-color: gray;
+            color: yellow;
+        }
+        #table1 tbody tr:nth-child(even){
+            /*짝수*/
+            background-color: wheat;
+        }
+        #table1 tbody tr:hover{
+            background-color: violet;
+        }
+        
+        
+        #label1 input[type=text]{
+           color: red;
+           border : 2px solid skyblue;
+           border-radius : 5px;
+        }/*input[type=text] 잊지말기*/
+        #label1 input[type=text]:hover{
+           background-color:aliceblue;
+        }
+        #label1 input[type=text]:focus{
+           font-size: 120%;
+        }
+
+        label{
+            display: block;/*새 라인에서 시작 */
+            padding: 10px;
+        }
+        label span{
+            display: inline-block;
+            text-align: right;
+            width:100px;
+            padding:10px;
+        }
+
+        @keyframes textColorAnimation {
+            0% { color : blue; } /* 시작 시. 0% 대신 from 사용 가능 */
+            30% { color : green; } /* 30% 경과 시까지 */
+            100% { color : red; } /* 끝까지. 100% 대신 to 사용 가능 */
+        }
+        #animation1 {
+            animation-name : textColorAnimation; /* 애니메이션 코드 이름 */
+            animation-duration : 5s; /* 애니메이션 1회 시간은 5초 */
+            animation-iteration-count : infinite; /* 무한 반복 */
+        }
+
+        @keyframes textSize {
+            0% { font-size: 500%; } /* 시작 시. 0% 대신 from 사용 가능 */
+            
+            100% { font-size: 100%; } /* 끝까지. 100% 대신 to 사용 가능 */
+        }
+        #animation2 {
+            animation-name : textSize; /* 애니메이션 코드 이름 */
+            animation-duration : 5s; /* 애니메이션 1회 시간은 5초 */
+            animation-iteration-count : infinite; /* 무한 반복 */
+        }
+        #animation3 {
+            transition : font-size 5s;
+        }
+        #animation3:hover {
+            font-size : 500%;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="navlist1">
+            <li>Home</li>
+            <li>Espresso</li>
+            <li>Cappucciono</li>
+            <li>Cafe Latte</li>
+            <li>F.A.Q</li>
+            <li><a href="#">A테그 사용</a></li>
+        </ul>
+    </nav>
+    <h3>커피 메뉴</h3>
+    <hr>
+    <ul id="list1">
+        <li>Espresso</li>
+        <li>Cappucciono</li>
+        <li>Cafe Latte</li>
+    </ul>
+    <!--ul안에 li임을 명심..-->
+    <hr>
+    <table id="table1">
+        <thead><tr><th>이름</th><th>HTML</th><th>CSS</th></tr></thead>
+        <tfoot><tr><th>합</th><th>175</th><th>269</th></tr></tfoot>
+        <tbody>
+            <tr><td>황기태</td><td>80</td><td>70</td></tr>
+            <tr><td>이재문</td><td>80</td><td>70</td></tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <form>
+        <label>
+            <span>Name</span><input type="text" placeholder="Elvis"><br>
+        </label>
+        <label>
+            <span>Email</span><input type="email" placeholder="elvis@graceland.com">
+        </label>
+        <label>
+            <span>Comment</span><textarea placeholder="메시지를 남겨주세요"></textarea>
+        </label>
+        <!--placeholoder기억하기
+        textarea는 닫힘 괄호 필요-->
+        <label>
+            <span></span><input type="submit" value="submit">
+        </label>
+    </form>
+
+    <hr>
+    <p><span id ="animation1">span</span>텍스트를 5초에 blue,
+        green, red로 무한 반복합니다.
+    </p>
+    <p><span id ="animation2">꽝!</span>
+    </p>
+
+    <p>
+        <span id="animation3">꽝 전환</span>
+    </p>
+    <hr>
+    
+</body>
+</html>

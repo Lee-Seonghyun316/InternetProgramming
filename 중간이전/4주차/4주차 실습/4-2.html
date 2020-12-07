@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>The figure,figcaption 태그 활용</h1>
+    <figure>
+        <figcaption>alert() 함수 활용</figcaption>
+        <pre> <code>function f(){alert{"경고합니다.");}</code>
+        </pre>
+        <hr> <small>실행결과</small>
+        <pre> <img src="alert.png" alt="실행결과">
+        </pre>
+    </figure>
+
+    <h3>details 와 summary 태그</h3>
+    Q &amp; A 리스트
+    <hr>
+    <details>
+        <summary>Question 1</summary>
+        <p>웹 개발자가 알아야하는 언어 3가지</p>
+    </details>
+    <details>
+        <summary>Answer 1</summary>
+        <p>HTML5, CSS, javascript</p>
+    </details>
+
+    <h3>인라인 시맨틱 태그 사례</h3>
+    <hr>
+    <p>내일 <mark>HTML5 시험</mark><br>
+        시간은 <time>09:00</time><br>
+        난이도<meter value="0.8" max="1.0">80%</meter><br>
+        자료 업로딩(20%)
+        <progress value="2" max="10"></progress><br>
+    </p>
+
+    <form>
+        Name : <input type="text" name="name">
+        <p>
+            Age : <input type="text" name="age" size="5">
+            <p>
+                Address : <input type="text" name="address" size="40">
+                <p>
+                    Url : <input type="text" name="url" value="http://">
+                    <p>
+                        Password : <input type="password" name="ps">
+    </form>
+
+    <form>
+        <h3>Checkbox<p>
+        </h3>
+        <input type="checkbox" name="f1" value="a"> 사과
+        <input type="checkbox" name="f2" value="o" checked> 귤
+        <input type="checkbox" name="f3" value="b"> 바나나 <p>
+            <h3>Radio<p>
+            </h3>
+            <input type="radio" name="f1" value="a"> 사과
+            <input type="radio" name="f1" value="o" checked> 귤
+            <input type="radio" name="f1" value="b"> 바나나
+    </form>
+
+    <h3>가보고 싶은 곳</h3>
+    <hr>
+    <form>
+        <p> 나라 : <input type="text" list="countries" <br>
+            <datalist id="countries">
+                <option value="가나">
+                <option value="스위스">
+                <option value="브라질">
+            </datalist>
+        </p>
+        <p> 보고싶은것:<input type="text" list="what"><br>
+            <datalist id="what">
+                <option value="산">
+                <option value="바다">
+                <option value="도시">
+            </datalist>
+        </p>
+    </form>
+
+    <form>
+        <textarea name="col" rows="5" cols="30"></textarea>
+        <p>
+            <input type="submit" value="보내기">
+            <input type="reset" value="취소">
+    </form>
+
+    <h3>회원정보를 입력해주세요 </h3>
+    <form>
+        email : <input type=“email” placeholder=“id@host”><br>
+        홈페이지 : <input type=“url” placeholder=“http://”> <br>
+        전화번호 : <input type=“tel” placeholder=“010-1234-5678”><br>
+        생년월일 : <input type=“date” value=“2020-01-01”><br>
+    </form>
+</body>
+
+</html>

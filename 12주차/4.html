@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <script type="text/javascript">
+      function alt(msg, _width, _height) {
+        var _style = alt_div.style;
+
+        if (msg != null) {
+          alt_div.innerHTML = msg;
+
+          _style.visibility = "visible";
+
+          if (_width != null) {
+            if (alt_div.offsetWidth > _width) {
+              _style.width = _width;
+            }
+          }
+
+          if (_height != null) {
+            if (alt_div.offsetHeight > _height) {
+              _style.height = _height;
+            }
+          }
+        } else {
+          _style.visibility = "hidden";
+        }
+      }
+
+      document.write(
+        '<div id=alt_div style="padding:2;border:1 solid #ff9900;' + // 말풍선 테두리 컬러
+          "background-color:#ffffff;color:#330000;" + // 말풍선 테이블 백그라운드컬러 / 폰트컬러
+          "font-size:13px;position:absolute;visibility:hidden;overflow:hidden;z-index:aut" +
+          "o;width:auto;height:auto;filter:alpha(opacity=1);" + // 투명도
+          '"></div>'
+      );
+
+      document.onmousemove = get_xy;
+
+      function get_xy() {
+        var _style = alt_div.style;
+
+        var x = event.x + document.body.scrollLeft;
+
+        var y = event.y + document.body.scrollTop;
+
+        _style.left = x + 10;
+
+        _style.top = y + 10;
+      }
+
+      //-->
+    </script>
+  </head>
+
+  <body>
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      border="1"
+      width="500"
+      valign="center"
+    >
+      <tr height="30">
+        <td align="center" colspan="2">지금, 시작합니다</td>
+      </tr>
+
+      <tr height="30" align="center">
+        <td onmouseover="alt( 'td 태그에 말풍선!' )" onmouseout="alt()">
+          말풍선 o.o
+        </td>
+
+        <td>
+          <a href="" onmouseover="alt( 'a 태그에 말풍선!' )" onmouseout="alt()"
+            >말풍선 x.x</a
+          >
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

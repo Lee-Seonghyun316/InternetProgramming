@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Q2</title>
+    <script>
+      // function selectAll() {      var form = document.form;      var count =
+      // form.selectBox.length;      var value = "";      var option = "";
+      // for(var i=0; i < count; i++ ){           value +=
+      // form.selectBox.options[i].value + " ";           option +=
+      // form.selectBox.options[i].text + " ";      }      alert("SelectBox value는:" +
+      // value);      alert("SelectBox option은:" + option); }
+      function getSelectValue(frm) {
+        var form = document.form;
+        var count = form.selectBox.length;
+        var totalPrice = 0;
+        for (var i = 0; i < count; i++) {
+          a = frm.selectBox.options[frm.selectBox.selectedIndex].text;
+          var sub = a.split(" ");
+
+          frm.textValue.value = sub[0];
+
+          var price = sub[1].replace(",", "");
+          price = price.replace("원", "");
+          price = parseInt(price);
+          totalPrice += price;
+          frm.optionValue.value = totalPrice;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h3>주문내역</h3>
+    <hr style="color: orange" />
+
+    <button onclick="load()">확인</button>
+    <button onclick="load()">취소</button>
+    <form name="form">
+      <table>
+        <tbody>
+          <tr>
+            <td>주문자명</td>
+            <td><input type="txt" /></td>
+          </tr>
+          <tr>
+            <td>작성 시간</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>제품 목록</td>
+            <td>
+              <select
+                name="selectBox[]"
+                onchange="getSelectValue(this.form);"
+                multiple="multiple"
+                id="selectBox"
+              >
+                <option value="1">마우스 30,000원</option>
+                <option value="2" selected="selected">모니터 40,000원</option>
+                <option value="3">USB 15,000원</option>
+                <option value="4">이어폰 90,000원</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>선택목록</td>
+            <td>
+              <input type="text" name="textValue" width="40px" height="20px" />
+            </td>
+          </tr>
+          <tr>
+            <td>금액</td>
+            <td><input type="text" name="optionValue" />원</td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

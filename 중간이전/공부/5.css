@@ -1,0 +1,27 @@
+/*
+들여쓰기
+텍스트정렬
+폰트 설정
+*/
+#h3First::first-letter{
+    color: red;
+}
+
+.p1 {
+    text-indent : 3em; /* 3 글자 들여쓰기 */
+    text-align : justify; /* 양쪽 정렬 */
+    }
+    .p2 {
+    text-indent : 1em; /* 1 글자 들여쓰기 */
+    text-align : center; /* 중앙 정렬 */
+    }
+    body {
+        font-family : "Times New Roman", Serif;
+        font-size : large;
+        }
+        h3 {
+        font : italic bold 40px consolas, sans-serif;
+        }
+
+
+        

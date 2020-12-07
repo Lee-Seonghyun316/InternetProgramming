@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>박스 속성</title>
+        <style type="text/css">
+            div {
+                position: absolute;
+                top: 50px;
+                width: 100px;
+                height: 100px;
+                background: lightgreen;
+                border: 2px solid green;
+            }
+            #b1 {
+                left: 50px;
+                box-shadow: 10px 10px black;
+                overflow: auto;
+                resize: horizontal;
+            }
+            #b2 {
+                left: 250px;
+                box-shadow: 20px 20px 20px green;
+                overflow: auto;
+                resize: vertical;
+            }
+            #b3 {
+                left: 450px;
+                box-shadow: 20px 20px 20px 10px green;
+                overflow: auto;
+                resize: both;
+            }
+            #b4 {
+                left: 650px;
+                box-shadow: 10px 10px 10px 5px green inset;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="b1">
+            <p></p>
+        </div>
+        <div id="b2">
+            <p></p>
+        </div>
+        <div id="b3">
+            <p></p>
+        </div>
+        <div id="b4">
+            <p></p>
+        </div>
+    </body>
+</html>

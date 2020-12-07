@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>book 객체 배열 만들기</title>
+        <script>
+            // 프로토타입 만들기 : 생성자 함수 작성
+            function Account(title, author, price) {
+                // 프로퍼티 만들기
+                this.title = title;
+                this.author = author;
+                this.price = price;
+
+            }
+        </script>
+    </head>
+    <body>
+        <h3>book 객체 배열 만들기</h3>
+        <hr>
+        <script>
+
+            // new 연산자 이용하여 계좌 객체 생성
+            var celsius = new Array(); // 빈 배열 생성
+            var fahrenheit = new Array();
+
+            for (i = 0; i < 5; i++) {
+                fahrenheit[i] = prompt('콤마(,)로 분리하면서 책제목 저자  순으로 입력');
+
+            }
+
+            for (i = 0; i < 5; i++) {
+                document.write(fahrenheit[i] + "<br>");
+            }
+            document.write("<hr>");
+            var highprice = 0;
+            var hightitle = "a";
+            for (i = 0; i < 5; i++) {
+                var sub = fahrenheit[i].split(",");
+                var account = new Account(sub[0], sub[1], parseInt(sub[2]));
+                if (highprice < account.price) {
+                    highprice = account.price;
+                    hightitle = account.title;
+                }
+
+            }
+
+            document.write("가격이 가장 비싼 책은 " + hightitle);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+</head>
+
+<body>
+    <h3 align="center">회원가입</h3>
+    <hr style="background-color:red;height: 3px;">
+    <br>
+    <form>
+        <table border="1" width="60%" align="center">
+            <tr>
+                <td align="center">아이디</td>
+                <td colspan="3">
+                    <input type="text" size="16">
+                    <span style="color:red">*4~16자</span>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">비밀번호</td>
+                <td>
+                    <input type="password" name="ps" size="16">
+                    <span style="color:red">*4~16자</span>
+                </td>
+                <td align="center">
+                    성명
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">성별</td>
+                <td>
+                    <form>
+                        <input type="radio" name="f1" value="a"> 여자
+                        <input type="radio" name="f1" value="o"> 남자
+                    </form>
+                </td>
+
+                <td align="center">취미</td>
+                <td>
+                    <input type="checkbox" name="f1" value="a"> 여행
+                    <input type="checkbox" name="f2" value="o"> 잠자기
+
+                </td>
+            </tr>
+            <tr>
+                <td align="center">H.P.</td>
+                <td colspan="3">
+                    <input type="text" size="4">-
+                    <input type="text" size="4">-
+                    <input type="text" size="4">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">자기소개</td>
+                <td colspan="3"><textarea name="col" rows="30" cols="120"></textarea></td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="4"><input type="submit" value="보내기">
+                    <input type="reset" value="취소"></td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

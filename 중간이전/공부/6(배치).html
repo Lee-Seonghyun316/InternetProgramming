@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--
+    배치
+    relative
+    fixed 브라우저 크기 바끼면 그 브라우저에 맞추어 자리고정
+    absolute:브라우저 크기 바껴도 자리 그대로
+    float항상 브라우저의 오른편또는 윈편
+    z-index:숫자 작을수록 밑에
+    visibility : 텍스트 숨기기
+    overflow: 스크롤
+-->
+<html>
+    <head>
+        <title>relative 배치</title>
+        <style>
+            .tree {
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+                border: 1px solid lightgray;
+                text-align: center;
+                color: white;
+                background: red;
+            }
+            #down:hover {
+                position: relative;
+                left: 20px;
+                top: 20px;
+                background: green;
+            }
+            #up:hover {
+                position: relative;
+                right: 20px;
+                bottom: 20px;
+                background: green;
+            }
+
+            #tree2 {
+                display: inline-block;
+                position: absolute;
+                /* 절대 배치 */
+                border: 1px solid lightgray;
+            }
+            #tree2 > p {
+                display: inline-block;
+                /* div의 자식 p */
+                position: absolute;
+                /* 절대 배치 */
+                height: 20px;
+                width: 15px;
+                background: lightgray;
+            }
+            #fixed {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                width: 100px;
+                padding: 5px;
+                background: red;
+                color: white;
+            }
+
+            #float {
+                float: right;
+                border: 1px dotted black;
+                width: 8em;
+                padding: 0.25em;
+                margin: 1em;
+            }
+
+            img {
+                position: absolute;
+            }
+            #spadeA {
+                z-index: -3;
+                left: 10px;
+                top: 20px;
+            }
+            #spade2 {
+                z-index: 2;
+                left: 40px;
+                top: 30px;
+            }
+            #spade3 {
+                z-index: 3;
+                left: 80px;
+                top: 40px;
+            }
+            #spade7 {
+                z-index: 7;
+                left: 120px;
+                top: 50px;
+            }
+
+            #hide1 {
+                visibility: hidden;
+            }
+            .hidden {
+                overflow: hidden;
+            }
+            .visible {
+                overflow: visible;
+            }
+            .scroll {
+                overflow: scroll;
+            }
+            #p1 {
+                width: 15em;
+                height: 3em;
+                border: 1px solid lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="spadeA" src="border.png" width="100" height="140" alt="스페이드A">
+        <img id="spade2" src="border.png" width="100" height="140" alt="스페이드2">
+        <img id="spade3" src="border.png" width="100" height="140" alt="스페이드3">
+        <img id="spade7" src="border.png" width="100" height="140" alt="스페이드7">
+        <h3>상대 배치, relative</h3>
+        <hr>
+        <div class="tree">T</div>
+        <div class="tree" id="down">h</div>
+        <div class="tree">a</div>
+        <div class="tree">n</div>
+        <div class="tree" id="up">k</div>
+        <div class="tree">s</div>
+
+        <h3>Merry Christmas!</h3>
+        <hr>
+        <p>예수님이 탄생하셨습니다.</p>
+        <div id="tree2">
+            <img src="border.png" width="200" height="200" alt="크리스마스 트리">
+            <p style="left:50px; top:30px">M</p>
+            <p style="left:100px; top:0px">E</p>
+            <p style="left:100px; top:80px">R</p>
+            <p style="left:150px; top:110px">R</p>
+            <p style="left:30px; top:130px">Y</p>
+        </div>
+        <div id="fixed">예수님이 탄생하셨습니다.
+        </div>
+
+        <div>
+            <p id="float">
+                24일은 피아니스트 조성진의 크리스마스 특별 연주가 있습니다.</p>
+        </div>
+        <!--닫는 테그 안쓰면 어디 틀린지도 모르고 헤맬 수 있다. -->
+
+        <br><br><br><br><br><br><br>
+        <hr>
+        <ul>
+            <li>I (<span id="hide1">love</span>) you.
+            <li>CSS is Cascading (<span id="hide1">Style</span>) Sheet.
+            <li>응답하라 (<span id="hide1">1988</span>).
+        </ul>
+        <hr>
+        <p class="hidden" id="p1">overflow에 hidden 값을 적용하면 박스를 넘어가는 내용이 잘려 보이지 않습니다.</p><br>
+        <p class="visible" id="p1">overflow에 visible 값을 적용하면 콘텐트가 박스를 넘어가서도 출력됩니다</p><br>
+        <p class="scroll" id="p1">overflow에 scroll 값을 적용하면 박스에 스크롤바를 붙여 출력합니다.</p>
+
+    </body>
+</html>

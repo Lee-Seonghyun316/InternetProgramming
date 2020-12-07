@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #menubar{
+            background: olive;
+        }
+        #menubar ul{
+            margin: 0;
+            padding:0;
+            width: 567px;
+            background: olive;
+            /*nar안에다 하면 배경 안되는 이유?->책에는 nar안에다 함*/
+        }
+        #menubar ul li{
+            display: inline-block;
+            list-style-type: none;
+            padding: 0px 15px;
+        }
+        #menubar ul li a{
+            color: white;
+            text-decoration:none;
+        }
+        #menubar ul li a:hover{
+            color: violet;
+        }
+
+        table {
+            border : 1px solid blue;
+            border-collapse : collapse;
+        }
+        td, th {
+            border : 1px dotted green;
+            padding : 10px;
+            text-align : right;
+
+        }
+        th {
+height : 40px;
+width : 100px;
+}
+td {
+height : 20px;
+width : 100px;
+}
+tbody tr:nth-child(even) { /* 짝수 <tr>에 적용*/
+background : aliceblue;
+}
+tbody tr:hover {
+    background : pink
+}
+
+
+input[type=text] {
+color : red;
+border : 2px solid skyblue;
+border-radius : 5px;
+}
+
+input[type=text]:focus {
+font-size : 120%;
+}
+
+@keyframes textColorAnimation {
+0% { color : blue; }
+30% { color : green; }
+100% { color : red; }
+}
+span {
+animation-name : textColorAnimation;
+animation-duration : 5s;
+animation-iteration-count : infinite;
+}
+
+    </style>
+</head>
+<body>
+    <nar id="menubar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Espresso</a></li>
+            <li><a href="#">Cappuccino</a></li>
+            <li><a href="#">Cafe Latte</a></li>
+            <li><a href="#">F.A.Q</a></li>
+        </ul>
+    </nar>
+    <h3>커피 메뉴</h3>
+    <hr>
+    <ul id="menu">
+        <li id ="content">Espresso</li>
+        <li id ="content">Cappuccino</li>
+        <li id ="content">Cafe latte</li>
+    </ul>
+
+    <hr>
+    <h3>1학기 성적</h3>
+    <table>
+        <thead>
+        <tr><th>이름</th><th>HTML</th><th>CSS</th></tr>
+        </thead>
+        <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+        </tfoot>
+        <tbody>
+        <tr><td>황기태</td><td>80</td><td>70</td></tr>
+        <tr><td>이재문</td><td>95</td><td>99</td></tr>
+        <tbody>
+        </table>
+
+        <label>
+            이름 : <input type="text" placeholder="Elvis">
+            </label>
+            
+</body>
+</html>

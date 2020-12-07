@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--
+    {note
+    시멘틱태그(화면분할, header등으로)}
+//vs
+   fiqure태그, 캡션
+   정보 펼치기(details, summary) 
+   시맨틱 인라인 테그:mark(형광펜), time, meter, progress 
+   input type color date time tel password text search
+   form 태그, 
+   textarea
+   datalist-option:목록선택가능 input box
+   button
+   체크박스와 라디오 박스
+   콤보박스
+   label
+   스핀버튼과 슬라이드(화살표 있거나 슬라이드 우믹어서 정보입력)
+   form그룹핑
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=
+    , initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /*.label{
+                display: block;안통함
+            
+            */
+            .label1-1 {
+                display: inline-block;
+                padding: 0;
+                margin: 10px;
+                text-align: left;
+                width: 10rem;
+            }
+        </style>
+    </head>
+    <body>
+        <figure id="figure1">
+            <figurecaption>alrert()함수 활용</figurecaption>
+            <pre>
+            <code>fucntion f() {alert("경고합니다");}</code>
+        </pre>
+            <hr>
+            <pre>
+            <img src="border.png" alt="그림1">
+
+        </pre>
+
+        </figure>
+        <hr>
+        <details>
+            <summary>Question 1</summary>
+            <p>웹 개발자가 알아야 하는 언어 3 가지?</p>
+        </details>
+        <details>
+            <summary>Answer 1</summary>
+            <p>HTML5, CSS, Javascript</p>
+        </details>
+
+        <hr>
+        <p>내일
+            <mark>HTML5 시험</mark><br>
+            시간은
+            <time>09:00</time><br>
+            난이도
+            <meter value="0.8" max="1.0">80%</meter><br>
+            자료 업로딩(20%)
+            <progress value="2" max="10"></progress><br>
+        </p>
+
+        <hr>
+        <form name="fo" method="get">
+            사용자 ID :
+            <input type="text" size="15" value="" placeholder="뭘까"><br>
+            비밀 번호 :
+            <input type="password" size="15" value="">
+            <input type="submit" value="완료">
+        </form>
+        <hr>
+        <form>
+            이름 :
+            <input type="text" value=""><br>
+            암호 :
+            <input type="password" value="" maxlength="4"><br>
+            자소서 :
+            <textarea cols="20" rows="5">
+                이곳에 자기소개서 작성
+            </textarea>
+            나라 :
+            <input type="text" list="countries">
+            <datalist id="countries">
+                <option value="가나"></option>
+                <option value="스위스"></option>
+                <option value="브라질"></option>
+
+            </datalist>
+            보고싶은것 :
+            <input type="text" list="what"><br>
+            <datalist id="what">
+                <option value="산"></option>
+                <option value="바다"></option>
+
+            </datalist>
+
+            <input type="button" value="Q1">
+            <button type="button">Q2</button><br>
+            submit 버튼 :
+            <input type="submit" value="전송1">
+            <button type="submit">전송2</button><br>
+            reset 버튼 :
+            <input type="reset" value="리셋1">
+            <button type="reset">리셋2</button><br>
+            이미지버튼 :
+            <input type="image" src="media/button.png" alt="이미지 버튼">
+            <button type="button">
+                <img src="media/button.png" alt="이미지 버튼">
+            </button>
+
+            짜장면
+            <input type="checkbox" value="1">
+            짬뽕
+            <input type="checkbox" value="2" checked="checked">
+            탕수육
+            <input type="checkbox" value="3">
+            <br>
+            <input type="radio" name="china" value="1">
+            짜장면<img src="media/jajang.png"><br>
+            <input type="radio" name="china" value="2" checked="checked">
+            짬뽕<img src="media/jjambbong.png"><br>
+            <input type="radio" name="china" value="3">
+            탕수육<img src="media/tangsuyuk.png">
+            <br>
+            <select name="china">
+                <option value="1">짜장면</option>
+                <option value="2" selected="selected">짬뽕</option>
+                <option value="3">탕수육</option>
+            </select>
+            <br>
+            <label>
+                <input type="radio" name="china" value="1">
+                짜장면
+                <img src="media/jajang.png">
+            </label><br>
+            <label>
+                <input type="radio" name="china" value="2" checked="checked">
+                짬뽕
+                <img src="media/jjambbong.png">
+            </label><br>
+            <label>
+                <input type="radio" name="china" value="3">
+                탕수육
+                <img src="media/tangsuyuk.png">
+            </label>
+            색 선택
+            <input
+                type="color"
+                value="#00BFFF"
+                onchange="document.body.style.color=this.value">
+
+            <br>
+            <pre>
+                month : <input type="month" value="2016-09"><br>
+                week : <input type="week" value="2016-w36"><br>
+                data : <input type="date" value="2016-09-01"><br>
+                time : <input type="time" value="21:30"><br>
+                local: <input type="datetime-local"
+                value="2016-09-01t21:30:10.32"><br>
+                </pre>
+            <br>
+            <hr>
+            <br>
+            <h3>생일 축하합니다</h3>
+            <hr>
+            <p>당신의 생일은 2000년 5월 20일입니다. 틀리면 수정하시고 파티 시간과 장소를 입력하세요.
+            </p>
+            <hr>
+            <form>
+                <label class="label1">
+                    <span class="label1-1">생일</span><input type="date" value="">
+                </label>
+                <br>
+                <label class="label1">
+                    <span class="label1-1">생일파티시간</span><input type="time" value="">
+                </label>
+                <br>
+                <label class="label1">
+                    <span class="label1-1">생일파티장소</span><input type="text" value="우리집">
+                </label>
+
+                <hr>
+                <input type="number" min="0.0" max="10.0" step="0.5">
+                <input type="range" min="0" max="100" list="temperatures">
+                <datalist id="temperatures">
+                    <option value="10" label="Low"></option>
+                    <option value="50" label="Medium"></option>
+                    <option value="90" label="High"></option>
+                </datalist>
+                <hr>
+                <br>
+                <h3>홈 제어 시스템 - 온도 조절</h3>
+                <hr>
+                <form>
+                    지속시간 (0.0~10.0시간) :
+                    <input type="number" min="0.0" max="10.0" step="0.5"><br><br>
+                    온도 설정 :10&deg;
+                    <input type="range" min="10" max="30" list="temperatures">30&deg;
+                    <datalist id="temperatures">
+                        <option value="12" label="Low"></option>
+                        <option value="20" label="Medium"></option>
+                        <option value="28" label="High"></option>
+                    </datalist>
+
+                </form>
+
+            </form>
+            <form>
+                <input type="“tel”" placeholder="“010-1234-5678”">
+                <input type="“search”" placeholder="검색어">
+                <input type="button" value="검색">
+            </form>
+
+            <h3>회원 정보를 입력해주세요.</h3>
+            <hr>
+            <form>
+                <fieldset>
+                    <legend>회원정보</legend>
+                    이메일 :
+                    <input type="email"><br>
+                    홈페이지 :
+                    <input type="url"><br>
+                    전화번호 :
+                    <input type="tel">
+                </fieldset>
+                <small>질문 : Tel. 010-111-1111</small>
+            </form>
+
+        </body>
+    </html>

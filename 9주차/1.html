@@ -1,0 +1,36 @@
+<!--20201027 <script></script>->head, body모두 넣을 수 있다. 자바스크립트 코드 처리기 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>이벤트 리스너 코드에 자바스크립트 코드</title>
+                <script>
+
+                    function over(obj) {
+                        obj.src = "사과.jpg";
+                    }
+                    function out(obj) {
+                        obj.src = "사과2.jpg";
+                    }
+                </script>
+    </head>
+
+            <body>
+                <h3>마우스 올려 보세요</h3>
+                <hr>
+                    <img
+                        src="사과2.jpg"
+                        alt="이미지"
+                        onmouseover="this.src='사과.jpg'"
+                        onmouseout="this.src='사과2.jpg'">
+                        <hr>
+                            <h3>
+                                또 마우스 올려 보세요</h3>
+                            <hr>
+                                <img src="사과2.jpg" alt="이미지" 
+                                onmouseover="over(this)" 
+                                onmouseout="out(this)">
+                                <!--여기서 this는 이미지의 의미-->
+            </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var age = 0;
+      var personage = prompt("당신의 연령대는?", "나이를 입력해 주세요");
+
+      if (personage > 0 && personage < 20) {
+        age = 10;
+      } else if (personage > 19 && personage < 30) {
+        age = 20;
+      } else if (personage > 29 && personage < 40) {
+        age = 30;
+      } else if (personage > 39 && personage < 50) {
+        age = 40;
+      } else age = 0;
+
+      switch (age) {
+        case 10:
+          document.write("당신의 연령대는 " + age + "대 입니다");
+          break;
+        case 20:
+          document.write("당신의 연령대는 " + age + "대 입니다");
+          break;
+        case 30:
+          document.write("당신의 연령대는 " + age + "대 입니다");
+          break;
+        case 40:
+          document.write("당신의 연령대는 " + age + "대 입니다");
+          break;
+
+        default:
+          alert("10대에서 40대 이외의 연령대 입니다. ");
+      }
+    </script>
+  </body>
+</html>

@@ -5,15 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[add] setTImeOUt.html">
-      <change afterPath="$PROJECT_DIR$/Week14Event/HomeWork/Q1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week14Event/HomeWork/Q2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_2.xml" beforeDir="false" />
+    <list default="true" id="17326187-0ba6-470f-bf2e-118ae8cd9890" name="Default Changelist" comment="[merge] InternetProgramming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week14Event" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,13 +54,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Week14Event" />
+      <recent name="$PROJECT_DIR$/Week13Event/media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week14Event" />
       <recent name="$PROJECT_DIR$/Week13Event" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week14Event" />
-      <recent name="$PROJECT_DIR$/Week13Event/media" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +87,7 @@
       <workItem from="1607004200334" duration="879000" />
       <workItem from="1607073221845" duration="10000" />
       <workItem from="1607073899322" duration="14000" />
-      <workItem from="1607166383677" duration="107000" />
+      <workItem from="1607166383677" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="EventPractice">
       <created>1606358128075</created>
@@ -187,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606845979567</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[merge] InternetProgramming">
+      <created>1607357099524</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607357099524</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +223,8 @@
     <MESSAGE value="[add] Q3.html" />
     <MESSAGE value="[add] 14Week" />
     <MESSAGE value="[add] setTImeOUt.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] setTImeOUt.html" />
+    <MESSAGE value="[merge] InternetProgramming" />
+    <option name="LAST_COMMIT_MESSAGE" value="[merge] InternetProgramming" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606371224794">
@@ -238,11 +239,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606388238643" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1606845983990">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1607357104696">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606845983990" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1606361318929" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1607357104696" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606387994208">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
